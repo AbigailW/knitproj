@@ -1,0 +1,54 @@
+
+:root {
+  --main-bg-color: #595a4aff;
+  --light-blue:  #429ea6ff;
+  --dark-blue: #595a4aff;
+  --accent-color: #cc998dff;
+  --dark-blue: #05368fff;
+}
+
+body {
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: 'Roboto', "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--main-bg-color);
+}
+
+  /* Links
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  a {
+    color: var(--dark-blue);
+   }
+  a:hover {
+    color: var(--accent-color); }
+
+
+
+/* Menu
+-----------*/
+ul#menu li {
+  display: inline;
+  padding: 25px 50px 75px;
+  font-size: 22px;
+}
+
+ul#menu {
+  text-align: center;
+  text-decoration: none;
+
+}
+
+#banner img{
+  width: 100%
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background-color: #429ea6ff;
